@@ -24,15 +24,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ---
 # **Screenshots**
 
-![IMAGE](https://github.com/ahmed0124/qtile/blob/master/preview/rofi.png)
+![IMAGE](https://github.com/ahmed0124/qtile/blob/main/preview/rofi.png)
 
-![IMAGE](https://github.com/ahmed0124/qtile/blob/master/preview/3-empty-terminals-monadtall.png)
+![IMAGE](https://github.com/ahmed0124/qtile/blob/main/preview/3-empty-terminals-monadtall.png)
 
-![IMAGE](https://github.com/ahmed0124/qtile/blob/master/preview/neofetch.png)
+![IMAGE](https://github.com/ahmed0124/qtile/blob/main/preview/neofetch.png)
 
-![IMAGE](https://github.com/ahmed0124/qtile/blob/master/preview/bpytop-dropdown.png)
+![IMAGE](https://github.com/ahmed0124/qtile/blob/main/preview/bpytop-dropdown.png)
 
-![IMAGE](https://github.com/ahmed0124/qtile/blob/master/preview/nautilus.png)
+![IMAGE](https://github.com/ahmed0124/qtile/blob/main/preview/nautilus.png)
 
 * ### **GTK Theme**: [Yaru-Aqua-Dark](https://www.gnome-look.org/p/1299514/)
 
