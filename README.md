@@ -64,7 +64,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * ### **Prompt**
   dmenu like prompt
 
-* ### **GenPollText**
+* ### **GenPollText (Disabled by default)**
   used to track total network usage by triggering the script [nt-usage.sh](https://github.com/ahmed0124/qtile/blob/main/scripts/nt-usage.sh) but note that it depends on `ifconfig` command from `net-tools`. You may need to change network interface name to your interface name, It's the one called "***wlp3s0***"
 
 * ### **Keyboard Layout**
@@ -75,16 +75,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   mouse scrollback changes the volume/sound level
 
-* ### **Battery**
+* ### **Battery (Disabled by default)**
 
 * ### **Date and Time**
 
 * ### **Qtile Layout Icon**
   switch to next layout by left mouse click and to previous layout by right mouse clcik
 
-* ### **Other widgets**
-  there are some widgets disabled by default that you can enable if you like by just uncomment thier lines in the widgets section in ***config.py***. some of them are:
-  `Task list`, `Weather widget`, `Systray widget`, `Close Button` to kill active window, `Switch Button` to switch active window "useful in max layout".
+* ### **Task list (Disabled by default)**
+
+* ### **Weather widget (Disabled by default)**
+
+* ### **Systray widget (Disabled by default)**
+
+* ### **Close Button (Disabled by default)**
+  Image widget that will simulate the keybinding of kill active window
+
+* ### **Switch Button (Disabled by default)**
+  Image widget that will simulate the keybinding of switch active window (useful for max layout to change active window easly by mouse)
+
+#### Hint: Disabled widgets can be easly enabled by just uncomment thier lines in ***config.py***
 
 ---
 # **Utilites**
