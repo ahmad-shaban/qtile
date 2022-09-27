@@ -4,4 +4,4 @@ rx_usage=$(ifconfig wlp3s0 | grep RX | grep byte | awk -F '(' '{print $2}' | awk
 
 tx_usage=$(ifconfig wlp3s0 | grep TX | grep byte | awk -F '(' '{print $2}' | awk -F ')' '{print $1}')
 
-echo -e "\n$tx_usage 🡑🡓 $rx_usage"
+echo -e "\n$tx_usage ⇡⇣ $rx_usage"
