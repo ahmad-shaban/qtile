@@ -68,7 +68,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   used to track total network usage by triggering the script [nt-usage.sh](https://github.com/ahmed0124/qtile/blob/main/scripts/nt-usage.sh) but note that it depends on `ifconfig` command from `net-tools`. You may need to change network interface name to your interface name, It's the one called "***wlp3s0***"
 
 * ### **Keyboard Layout**
-  by default it will switch between "US" and "AR" when you click on it, but of course you can change that to your layouts.
+  by default it will switch between "**US**" and "**AR**" when you click on it, but of course you can change that to your layouts.
 
 * ### **Volume**
   click will toggle mute
@@ -80,7 +80,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * ### **Date and Time**
 
 * ### **Qtile Layout Icon**
-  switch to next layout by left mouse click and to previous layout by right mouse clcik
+  switch to next layout by left mouse click and to previous layout by right mouse click
 
 * ### **Task list (Disabled by default)**
 
@@ -89,12 +89,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * ### **Systray widget (Disabled by default)**
 
 * ### **Close Button (Disabled by default)**
-  Image widget that will simulate the keybinding of kill active window
+  Image widget that will simulate the keybinding of ***kill active window***
 
 * ### **Switch Button (Disabled by default)**
-  Image widget that will simulate the keybinding of switch active window (useful for max layout to change active window easly by mouse)
+  Image widget that will simulate the keybinding of ***switch active window*** (useful for max layout to change active window easly by mouse)
 
-#### Hint: Disabled widgets can be easly enabled by just uncomment thier lines in ***config.py***
+#### Hint: Disabled widgets can be easly enabled by just uncomment thier lines in "***config.py***" file
 
 ---
 # **Utilites**
