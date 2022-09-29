@@ -125,15 +125,15 @@ refer to [qtile official website](http://docs.qtile.org/en/stable/manual/install
 Depending on your distro, choose on of the following commands
 #### Debian
 ```bash
-sudo apt install rofi scrot feh lxappearance picom policykit-1-gnome amixer brightnessctl xinput alsa-utils net-tools xss-lock i3lock fonts-font-awesome fonts-powerline fonts-symbola fonts-noto-color-emoji fonts-hack bpytop papirus-icon-theme
+sudo apt install rofi scrot feh lxappearance picom bpytop papirus-icon-theme policykit-1-gnome amixer brightnessctl xinput alsa-utils net-tools xss-lock i3lock fonts-font-awesome fonts-powerline fonts-symbola fonts-noto-color-emoji fonts-hack fonts-firacode
 ```
 #### Fedora
 ```bash
-sudo dnf install rofi scrot feh lxappearance picom polkit-gnome brightnessctl xinput alsa-utils net-tools xss-lock i3lock fontawesome-fonts powerline-fonts texlive-noto-emoji adobe-source-code-pro-fonts bpytop papirus-icon-theme
+sudo dnf install rofi scrot feh lxappearance picom bpytop papirus-icon-theme polkit-gnome brightnessctl xinput alsa-utils net-tools xss-lock i3lock fontawesome-fonts powerline-fonts texlive-noto-emoji adobe-source-code-pro-fonts fira-code-fonts
 ```
 #### Arch
 ```bash
-sudo pacman -S rofi scrot feh lxappearance picom polkit-gnome brightnessctl xorg-xinput alsa-utils net-tools xss-lock i3lock awesome-terminal-fonts powerline-fonts noto-fonts-emoji ttf-hack adobe-source-code-pro-fonts bpytop papirus-icon-theme
+sudo pacman -S rofi scrot feh lxappearance picom bpytop papirus-icon-theme polkit-gnome brightnessctl xorg-xinput alsa-utils net-tools xss-lock i3lock awesome-terminal-fonts powerline-fonts noto-fonts-emoji ttf-hack adobe-source-code-pro-fonts ttf-fira-code
 ```
 ## Clone the configs
 if you have previous qtile configs, make sure to backup by running this first
