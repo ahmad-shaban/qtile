@@ -216,7 +216,7 @@ for i in groups:
 groups.append(
 	ScratchPad("scratchpad", [
 		# define a drop down terminal
-		DropDown("bpytop", terminal + " -e bpytop", height=0.7, opacity=1, on_focus_lost_hide=True)
+		DropDown("bpytop", terminal + " -e bpytop", height=0.75, opacity=1, on_focus_lost_hide=True)
 	])
     )
 
