@@ -212,7 +212,10 @@ SUPER + HOME            | switch to first group or workspace (workspace 1)
 SUPER + END             | switch to last group or workspace (workspace 7)
 SUPER + ESCAPE          | switch to last visited group or workspace
 
-You should also be able to use screen brightness and voulme/sound keys to adjust them. If you have a calculator key in your keyboard it should start `Qalculate!` if it's installed on your system.
+#### ***Notes***:
+* You can use vim keybindings `hjkl` instead of arrow keys in all previous keybindings
+
+* You should also be able to use screen brightness and voulme/sound keys to adjust them. If you have a calculator key in your keyboard it should start `Qalculate!` if it's installed on your system.
 
 ---
 # **Aditional Tip**

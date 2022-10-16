@@ -102,6 +102,10 @@ keys = [
     Key([mod], "Right", lazy.layout.right(), desc="Move focus to right"),
     Key([mod], "Down", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "Up", lazy.layout.up(), desc="Move focus up"),
+    Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
+    Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),
+    Key([mod], "j", lazy.layout.down(), desc="Move focus down"),
+    Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
     Key([alt], "Tab", lazy.layout.next(), desc="Move window focus to next window"),
     Key([alt, "shift"], "Tab", lazy.layout.previous(), desc="Move window focus to previous window"),
     ## Control focused window
@@ -132,7 +136,16 @@ keys = [
         desc="Move window to the right"),
     Key([mod, "shift"], "Down", lazy.layout.shuffle_down(),
         desc="Move window down"),
-    Key([mod, "shift"], "Up", lazy.layout.shuffle_up(), desc="Move window up"),
+    Key([mod, "shift"], "Up", lazy.layout.shuffle_up(),
+            desc="Move window up"),
+    Key([mod, "shift"], "h", lazy.layout.shuffle_left(),
+        desc="Move window to the left"),
+    Key([mod, "shift"], "l", lazy.layout.shuffle_right(),
+        desc="Move window to the right"),
+    Key([mod, "shift"], "j", lazy.layout.shuffle_down(),
+        desc="Move window down"),
+    Key([mod, "shift"], "k", lazy.layout.shuffle_up(),
+            desc="Move window up"),
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
     Key([mod, "control"], "Left", lazy.layout.grow_left(),
@@ -141,7 +154,16 @@ keys = [
         desc="Grow window to the right"),
     Key([mod, "control"], "Down", lazy.layout.grow_down(),
         desc="Grow window down"),
-    Key([mod, "control"], "Up", lazy.layout.grow_up(), desc="Grow window up"),
+    Key([mod, "control"], "Up", lazy.layout.grow_up(),
+            desc="Grow window up"),
+    Key([mod, "control"], "h", lazy.layout.grow_left(),
+        desc="Grow window to the left"),
+    Key([mod, "control"], "l", lazy.layout.grow_right(),
+        desc="Grow window to the right"),
+    Key([mod, "control"], "j", lazy.layout.grow_down(),
+        desc="Grow window down"),
+    Key([mod, "control"], "k", lazy.layout.grow_up(),
+            desc="Grow window up"),
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all windows size"),
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
@@ -365,6 +387,7 @@ screens = [
                 #widget.QuickExit(foreground="#ff0000"),
             ],
             33,
+            background='#000000',
         ),
         ## Bottom Bar
         #bottom=bar.Bar([
