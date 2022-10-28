@@ -211,7 +211,7 @@ keys = [
 groups = [Group("1", label="DEV", layout="monadwide"),
           Group("2", label="WEB", layout="columns"),
           Group("3", label="CHAT", layout="columns"),
-          Group("4", label="FILE", layout="monadtall"),
+          Group("4", label="DOC", layout="monadtall"),
           Group("5", label="MEDIA", layout="max"),
           Group("6", label="GAME", layout="max"),
           Group("7", label="VM", layout="max")]
