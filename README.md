@@ -125,7 +125,7 @@ refer to [qtile official website](http://docs.qtile.org/en/stable/manual/install
 Depending on your distro, choose on of the following commands
 #### Debian
 ```bash
-sudo apt install rofi scrot feh lxappearance picom bpytop papirus-icon-theme policykit-1-gnome amixer brightnessctl xinput alsa-utils net-tools xss-lock i3lock fonts-font-awesome fonts-powerline fonts-symbola fonts-noto-color-emoji fonts-hack fonts-firacode
+sudo apt install rofi scrot feh lxappearance picom bpytop papirus-icon-theme policykit-1-gnome alsa-utils brightnessctl xinput alsa-utils net-tools xss-lock i3lock fonts-font-awesome fonts-powerline fonts-symbola fonts-noto-color-emoji fonts-hack fonts-firacode
 ```
 #### Fedora
 ```bash
