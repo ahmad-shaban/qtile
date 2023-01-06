@@ -4,5 +4,5 @@
 xset dpms 0 0 600 &
 
 # trigger i3lock
-xss-lock -- i3lock -c 000000 &
+xss-lock -- $HOME/.config/qtile/scripts/lock-screen.sh &
 
