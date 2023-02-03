@@ -157,7 +157,7 @@ SUPER + W               | open Web Browser (firefox)
 SUPER + E               | open File Manager (nautilus)
 SUPER + SPACE           | change Keyboard Layout
 SUPER + R               | PROMPT widget (dmenu like prompt)
-SUPER + CTRL + R 	| hide/show qtile bar
+SUPER + CTRL + b 	| hide/show qtile bar
 SUPER + A               | open App Launcher (rofi)
 F12			                | system monitor as a dropdown (bpytop)
 Prt Scr                 | take a screenshot by `scrot` (saved in `~/Pictures/Screenshots`)
