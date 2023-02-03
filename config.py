@@ -59,6 +59,7 @@ keys = [
     ## Qtile control
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
+    Key([mod, "control"], "b", lazy.hide_show_bar(), desc="Hide/Show Qtile bar"),
     ## Apps
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     Key([mod], "w", lazy.spawn("firefox"), desc="Web Browser"),
